@@ -487,12 +487,12 @@ while True:
             import os
             import sys
             
-            s = (Fore.RED + "\nAre You Tran Again" + Fore.GREEN + " (y / n)" + Fore.BLUE + " ?" + Fore.BLUE + " ==>  ")
+            s = input(Fore.RED + "\nAre You Tran Again" + Fore.GREEN + " (y / n)" + Fore.BLUE + " ?" + Fore.BLUE + " ==>  ")
             if s.lower() == "y":
                 continue
             if s.lower() == "n":
                 break
-                sys.exit()
+
 
             
             
