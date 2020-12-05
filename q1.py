@@ -487,10 +487,9 @@ while True:
             import os
             import sys
             
-            print(Fore.RED + "\nAre You Tran Again" + Fore.GREEN + " (y / n)" + Fore.BLUE + " ?" + Fore.BLUE + " ==>  ")
-            s = input("")
+            s = (Fore.RED + "\nAre You Tran Again" + Fore.GREEN + " (y / n)" + Fore.BLUE + " ?" + Fore.BLUE + " ==>  ")
             if s.lower() == "y":
-                countinue
+                continue
             if s.lower() == "n":
                 break
                 sys.exit()
