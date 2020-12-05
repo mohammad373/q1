@@ -15,7 +15,7 @@ def __1__():
         for item in my_list:
           r = i + "/" + item  
           req = requests.get(r)
-          if req.status_code == 200:
+          if req.status_code == 200 or req.status_code == 405:
             print(Fore.GREEN + "This Is Ok " + Fore.GREEN + r)
           else:
             print(Fore.RED + "This Is Not Ok " + Fore.RED  + r)
