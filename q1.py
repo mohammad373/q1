@@ -493,10 +493,7 @@ while True:
             if s.lower() == "n":
                 break
                 sys.exit()
-            else:
-                print(Fore.RED + "Sory  ;( .  I`m Dond No ")
-                sys.exit()
-            
+
             
             
 
