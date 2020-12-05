@@ -6,7 +6,7 @@ from colorama import Fore
 def __8__():
     try:
         site = input(Fore.RED + "Enter Your Address WebSite" + Fore.YELLOW + " ==>  ")
-        r = {"removAddress" , site}
+        r = {"remoteAddress" : site}
         b = requests.post("https://domains.yougetsignal.com/domains.php" , r)
         q = json.loads(b.content)
         print(q)
