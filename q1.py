@@ -38,25 +38,25 @@ while True:
 
             time.sleep(1)
             print("Pleass Enter Your 1 ~ 10")
-            print(Fore.RED + "     [1] "+ Fore.GREEN + "Ip WebSite" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [1] "+ Fore.GREEN + " - Ip WebSite" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [2] "+ Fore.GREEN + "Your Ip" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [2] "+ Fore.GREEN + " - Your Ip" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [3] "+ Fore.GREEN + "Cloud Flare For WebSite" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [3] "+ Fore.GREEN + " - Cloud Flare For WebSite" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [4] "+ Fore.GREEN + "Domain 1" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [4] "+ Fore.GREEN + " - Domain 1" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [5] "+ Fore.GREEN + "Domain 2" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [5] "+ Fore.GREEN + " - Domain 2" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [6] "+ Fore.GREEN + "Admin WebSite" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [6] "+ Fore.GREEN + " - Admin WebSite" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [7] "+ Fore.GREEN + "Port - Nmap" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [7] "+ Fore.GREEN + " - Port - Nmap" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [8] "+ Fore.GREEN + "WebSite In My Target" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [8] "+ Fore.GREEN + " - WebSite In My Target" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [9] "+ Fore.GREEN + "Pyda Kardan Bakhsh Hay Site" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [9] "+ Fore.GREEN + " - Pyda Kardan Bakhsh Hay Site" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
-            print(Fore.RED + "     [10] "+ Fore.GREEN + "whois" + Fore.BLUE + " ;) ")
+            print(Fore.RED + "             [10] "+ Fore.GREEN + " - whois" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
 
             n= int(input(Fore.GREEN + "Enter Your Number 1 ~ 10 " + Fore.BLUE + "==>  " ))
@@ -491,9 +491,9 @@ while True:
             if s.lower() == "y":
                 continue
             if s.lower() == "n":
-                break
                 print(Fore.YELLOW + "\nOk Good Lunch" + Fore.RED + " ;)")
                 time.sleep(3)       
+                break
 
 
             
