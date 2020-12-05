@@ -13,5 +13,5 @@ def __8__():
         for i in q["domainArray"]:
             print(" " +Fore.GREEN+ i[0] + "\n")
     except:
-        pass
+        print(Fore.WHITE + "")
 __8__()
