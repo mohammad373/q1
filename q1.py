@@ -36,7 +36,7 @@ while True:
 
 
 
-
+            time.sleep(1)
             print("Pleass Enter Your 1 ~ 10")
             print(Fore.RED + "     [1] "+ Fore.GREEN + "Ip WebSite" + Fore.BLUE + " ;) ")
             time.sleep(0.3)
@@ -492,6 +492,8 @@ while True:
                 continue
             if s.lower() == "n":
                 break
+                print(Fore.YELLOW + "\nOk Good Lunch" + Fore.RED + " ;)")
+                time.sleep(3)       
 
 
             
