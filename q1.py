@@ -49,7 +49,7 @@ while True:
             print(Fore.RED + "             [6] "+ Fore.GREEN + " - Admin WebSite" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "*****************")
             time.sleep(0.3)
-            print(Fore.RED + "             [7] "+ Fore.GREEN + " - Port - Nmap" + Fore.BLUE + " ;) 
+            print(Fore.RED + "             [7] "+ Fore.GREEN + " - Port - Nmap" + Fore.BLUE + " ;) ")
             print(Fore.BLUE + "*****************")
             time.sleep(0.3)
             print(Fore.RED + "             [8] "+ Fore.GREEN + " - WebSite In My Target" + Fore.BLUE + " ;) ")
